@@ -9,6 +9,6 @@
 #define AIOC_IRQ_PRIO_AUDIO      2
 
 #define AIOC_DEFAULT_PTT_SOURCE  AIOC_PTT_SRC_RTS
-#define AIOC_PTT_POLARITY_ACTIVE_LOW  // i.e. RTS low = PTT
+#define AIOC_PTT_POLARITY_ACTIVE_HIGH  // i.e. RTS high = PTT
 
 #endif /* AIOC_H_ */
